@@ -37,7 +37,7 @@ dependencies {
     //implementation("org.hsqldb:hsqldb:2.3.3")
 
     //implementation("com.sun.xml.bind:jaxb-core:2.3.0.1")
-    //implementation("com.sun.xml.bind:jaxb-impl:2.3.1")
+    //implementation("com.sun.xml.bind:jaxb-impl:2.3.1")d
     //implementation("org.javassist:javassist:3.25.0-GA")
     //implementation("javax.activation:activation:1.1")
     //implementation("javax.activation:activation:1.1")
