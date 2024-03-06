@@ -21,12 +21,16 @@ repositories {
 val exposed = property("exposed_version")
 
 dependencies {
-    implementation("javax.xml.bind:jaxb-api:2.4.0-b180830.0359")
+    implementation("javax.xml.bind:jaxb-api:2.3.0-b170201.1204")
     implementation("junit:junit:4.12")
     implementation(kotlin("stdlib"))
     implementation(kotlin("reflect"))
     compileOnly("io.papermc.paper:paper-api:1.20.4-R0.1-SNAPSHOT")
     implementation("org.hibernate:hibernate-core:5.1.0.Final")
+    implementation("javax.activation:javax.activation-api:1.2.0")
+    implementation("com.sun.xml.bind:jaxb-impl:2.0.1")
+    implementation("jakarta.xml.bind:jakarta.xml.bind-api:4.0.0")
+    implementation("org.glassfish.jaxb:jaxb-runtime:4.0.4")
 }
 
 tasks {
