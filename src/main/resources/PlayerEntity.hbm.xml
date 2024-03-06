@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="de.max.plugin.domain.domain.domains.PlayerDomain" table="player">
+        <id name="uuid" type="string">
+            <column name="uuid" />
+            <generator class="assigned" />
+        </id>
+        <property name="rang" type="string">
+            <column name="rang" />
+        </property>
+        <property name="geld" type="integer">
+            <column name="geld" />
+        </property>
+        <property name="infos" type="string">
+            <column name="infos" />
+        </property>
+    </class>
+</hibernate-mapping>
